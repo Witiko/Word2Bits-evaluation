@@ -1,0 +1,3 @@
+[submodule "Word2Bits"]
+	path = Word2Bits
+	url = https://github.com/witiko/Word2Bits.git
