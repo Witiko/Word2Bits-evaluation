@@ -2,6 +2,3 @@ vectors/text8
 vectors/text8.zip
 .ipynb_checkpoints/
 __pycache__/
-vectors/*vectors*
-analogy/*vectors*
-analogy_bitwise/*vectors*

@@ -1,0 +1,51 @@
+Loading word vectors ...
+Loaded word vectors in 1.631290489 seconds
+Loading analogies ...
+Questions seen / total: 17827 19544   91.21 % 
+Loaded analogies in 7.185871569 seconds
+Solving analogies ...
+Solved analogies in 0.004701202 seconds
+Evaluating solution ...
+capital-common-countries:
+ACCURACY TOP1: 12.85 %  (65 / 506)
+Total accuracy: 12.85 %   Semantic accuracy: 12.85 %   Syntactic accuracy: -nan % 
+capital-world:
+ACCURACY TOP1: 2.97 %  (106 / 3564)
+Total accuracy: 4.20 %   Semantic accuracy: 4.20 %   Syntactic accuracy: -nan % 
+currency:
+ACCURACY TOP1: 0.00 %  (0 / 596)
+Total accuracy: 3.66 %   Semantic accuracy: 3.66 %   Syntactic accuracy: -nan % 
+city-in-state:
+ACCURACY TOP1: 10.43 %  (243 / 2330)
+Total accuracy: 5.92 %   Semantic accuracy: 5.92 %   Syntactic accuracy: -nan % 
+family:
+ACCURACY TOP1: 17.62 %  (74 / 420)
+Total accuracy: 6.58 %   Semantic accuracy: 6.58 %   Syntactic accuracy: -nan % 
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 1.31 %  (13 / 992)
+Total accuracy: 5.96 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 1.31 % 
+gram2-opposite:
+ACCURACY TOP1: 0.13 %  (1 / 756)
+Total accuracy: 5.48 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 0.80 % 
+gram3-comparative:
+ACCURACY TOP1: 1.65 %  (22 / 1332)
+Total accuracy: 4.99 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 1.17 % 
+gram4-superlative:
+ACCURACY TOP1: 0.50 %  (5 / 992)
+Total accuracy: 4.60 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 1.01 % 
+gram5-present-participle:
+ACCURACY TOP1: 3.50 %  (37 / 1056)
+Total accuracy: 4.51 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 1.52 % 
+gram6-nationality-adjective:
+ACCURACY TOP1: 34.52 %  (525 / 1521)
+Total accuracy: 7.76 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 9.07 % 
+gram7-past-tense:
+ACCURACY TOP1: 5.96 %  (93 / 1560)
+Total accuracy: 7.58 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 8.48 % 
+gram8-plural:
+ACCURACY TOP1: 18.69 %  (249 / 1332)
+Total accuracy: 8.45 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 9.90 % 
+gram9-plural-verbs:
+ACCURACY TOP1: 3.10 %  (27 / 870)
+Total accuracy: 8.19 %   Semantic accuracy: 6.58 %   Syntactic accuracy: 9.34 % 
+Evaluated solution in 44.544305505 seconds

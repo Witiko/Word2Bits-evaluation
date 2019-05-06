@@ -28,6 +28,7 @@ To reproduce our results, download the repository and install the required Pytho
 
 ``` sh
 git clone --recurse-submodules https://github.com/witiko/Word2Bits-evaluation.git
+rm vectors/*.log analogy/!(Makefile) analogy_bitwise/!(Makefile)
 pip install -r requirements.txt
 ```
 
