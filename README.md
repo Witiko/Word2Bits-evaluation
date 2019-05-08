@@ -24,7 +24,8 @@ This repository contains the [evaluation](evaluation.ipynb) of the
    </a>
 </p>
 
-To reproduce our results, download the repository and install the required Python packages:
+To reproduce our results, download the repository, remove our logs, and install
+the required Python packages:
 
 ``` sh
 git clone --recurse-submodules https://github.com/witiko/Word2Bits-evaluation.git
