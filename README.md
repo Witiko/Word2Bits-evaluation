@@ -1,8 +1,13 @@
 This repository contains the [evaluation](evaluation.ipynb) of the
-[Word2Bits][] algorithm by [Maximilian Lam][agnusmaximus].
+[Word2Bits][argusmaximus/Word2Bits] algorithm by [Maximilian
+Lam][agnusmaximus], which we [modified][witiko/Word2Bits] to produce true
+binary vectors instead of quantized float vectors, and to use the
+Hamming distance and bitwise operations instead of the cosine distance
+and floating point operations.
 
  [agnusmaximus]: https://github.com/agnusmaximus
- [Word2Bits]: https://github.com/agnusmaximus/Word2Bits (Quantized word vectors that take 8x-16x less space than regular word vectors)
+ [argusmaximus/Word2Bits]: https://github.com/agnusmaximus/Word2Bits (Quantized word vectors that take 8x-16x less space than regular word vectors)
+ [witiko/Word2Bits]:https://github.com/Witiko/Word2Bits (Quantized word vectors that take 8x-16x less space than regular word vectors)
 
  <p>
    <a href="figures/accuracy-iter.pdf">
