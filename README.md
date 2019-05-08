@@ -9,25 +9,10 @@ and floating point operations.
  [argusmaximus/Word2Bits]: https://github.com/agnusmaximus/Word2Bits (Quantized word vectors that take 8x-16x less space than regular word vectors)
  [witiko/Word2Bits]:https://github.com/Witiko/Word2Bits (Quantized word vectors that take 8x-16x less space than regular word vectors)
 
- <p>
-   <a href="figures/accuracy-iter.pdf">
-     <img src="figures/accuracy-iter.png"
-          width="290"
-          alt="Training accuracy (solid line) and loss (dashed line) vs epochs trained (vector dimension = 400) on 100MB of Wikipedia. Trends show that Word2Vec is prone to overfitting with many epochs of training."
-          title="Training accuracy (solid line) and loss (dashed line) vs epochs trained (vector dimension = 400) on 100MB of Wikipedia. Trends show that Word2Vec is prone to overfitting with many epochs of training." />
-   </a>
-   <a href="figures/accuracy-size.pdf">
-     <img src="figures/accuracy-size.png"
-          width="290"
-          alt="Training accuracy (solid line) and loss (dashed line) vs dimension (epochs trained = 10) on 100MB of Wikipedia. Trends show that overfitting may occur with larger vector dimensions."
-          title="Training accuracy (solid line) and loss (dashed line) vs dimension (epochs trained = 10) on 100MB of Wikipedia. Trends show that overfitting may occur with larger vector dimensions." />
-   </a>
-   <a href="figures/speed-size.pdf">
-     <img src="figures/speed-size.png"
-          width="290"
-          title="Duration of computing vector distances (solid line) and performing vector arithmetic (dashed line) in the evaluation of the Google analogy task. Using bitwise vector operations and Hamming distance results in up to 16× speed increase compared to float vectors and cosine similarity." />
-   </a>
-</p>
+| Figure 1 | Figure 2 | Figure 3 |
+| -- | -- | -- |
+| [<img src="figures/accuracy-iter.png" width="240"/>](figures/accuracy-iter.pdf) | [<img src="figures/accuracy-size.png" width="240"/>](figures/accuracy-size.pdf) | [<img src="figures/speed-size.png" width="240"/>](figures/speed-size.pdf) |
+| Training accuracy (solid line) and loss (dashed line) vs epochs trained (vector dimension = 400) on 100MB of Wikipedia. Trends show that Word2Vec is prone to overfitting with many epochs of training. | Training accuracy (solid line) and loss (dashed line) vs dimension (epochs trained = 10) on 100MB of Wikipedia. Trends show that overfitting may occur with larger vector dimensions. | Duration of computing vector distances (solid line) and performing vector arithmetic (dashed line) in the evaluation of the Google analogy task. Using bitwise vector operations and Hamming distance results in up to 16× speed increase compared to float vectors and cosine similarity. |
 
 To reproduce our results, download the repository, remove our logs, and install
 the required Python packages:
